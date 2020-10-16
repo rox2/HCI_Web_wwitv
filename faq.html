@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navbar</title>
+  <script src="https://kit.fontawesome.com/2ca75661ea.js" crossorigin="anonymous"></script>
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="cards.css">
+</head>
+
+
+<style>
+
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+input[type=text1], input[type=password1] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text1]:focus, input[type=password1]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.submit1:hover{
+    box-shadow: -3px -3px 3px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+
+  
+.submit1:hover{
+    box-shadow: -3px -3px 3px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+
+    
+    body {  
+      color: rgb(59, 6, 90);  
+      font-size: 20px;  
+      font-family: Verdana, Arial, Helvetica, monospace;  
+      background-color: #ffffff;  
+    }  
+      
+    h2 {  
+      text-align: center;  
+    }  
+      
+    .form_group {  
+      padding: 10px;  
+      ;    
+    display: block;  
+    }  
+      
+    label {  
+      float: left;  
+      padding-right: 50px;  
+      line-height: 10%;  
+      display: block;  
+      width: 208px;  
+    }  
+      
+  
+  
+      
+    
+
+.submit{
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 40px;
+    font-family: cursive;
+    background: linear-gradient(90deg,rgb(59, 6, 90),#aa12c9);
+    box-shadow: -3px -3px 13px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+.submit:hover{
+    box-shadow: -3px -3px 3px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.submit1{
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 40px;
+    font-family: cursive;
+    background: linear-gradient(90deg,rgb(59, 6, 90),#aa12c9);
+    box-shadow: -3px -3px 13px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+.submit1:hover{
+    box-shadow: -3px -3px 3px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+
+  
+img{
+  position: absolute;
+  left: 15%;
+  width: 300px;
+  top: 10%;
+   
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-imgg {
+  /* The image used */
+  background-color: #aa12c9;
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.containere {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  top:0%;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text1], input[type=password1] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text1]:focus, input[type=password1]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  
+  transition: 1s;
+  padding: 15px;
+  width: 300px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 30px;
+  background-color: rgb(59, 6, 90);
+}
+
+#blog {
+  top: 90px;
+  background-color: rgb(59, 6, 90);
+}
+
+#projects {
+  top: 150px;
+  background-color: rgb(59, 6, 90);
+}
+
+#contact {
+  top: 210px;
+  background-color: rgb(59, 6, 90);
+}
+
+#ok {
+  top: 270px;
+  background-color: rgb(59, 6, 90);
+}
+
+
+	</style>
+
+
+<body>
+<!--===================================================  navbar starts hear   =============================-->
+
+  <div id="navbar"> 
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btnNav"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="logo">
+     <a href="#home">   
+       <input id="logo" type="image" src="logo.png" alt="Home">
+     </a>
+    </div>
+    <ul class="navlinks">
+        <li>
+           <a class="btn" href="#watch">Watch</a>
+        </li>
+        <li class="add">
+           <a class="btn" href="#add"><i class="fas fa-plus"></i></a>
+        </li>
+        <li class="faq">
+           <a class="btn active" href="faq.html">F.A.Q.</a>
+        </li>
+        <li>
+           <a class="btn" href="#about">About</a>
+        </li>
+        <li>
+           <a class="btn" href="#contact"><i class="fas fa-phone-square-alt"></i></a>
+        </li>
+        <li class="calendar">
+           <a class="btn" href="#calendar"><i class="far fa-calendar-alt"></i></a>
+        </li>
+     </ul>
+  </div>
+<!--===================================================  navbar ends hear   =============================-->
+
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories">
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Basics</a></li>
+		<li><a class="cd-faq__category truncate" href="#mobile">Mobile</a></li>
+		<li><a class="cd-faq__category truncate" href="#account">Account</a></li>
+		
+		<li><a class="cd-faq__category truncate" href="#privacy">suggestions</a></li>
+		<li><a class="cd-faq__category truncate" href="#delivery">Rate Us</a></li>
+	</ul> <!-- cd-faq__categories -->
+
+	<div class="cd-faq__items">
+		<ul id="basics" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Basics</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I change my password?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p> Click in the top right of WWITV.com, And select Settings & Privacy > Settings , 
+                Then Click Security and Login.
+                After Click Edit next to Change password.
+                Then Enter your current password and new password.
+                Finally Click Save Changes.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I sign up?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p> Visit wwitv.com/signup.
+              Choose the plan that's right for you. You can downgrade or upgrade at anytime.
+              Create an account by entering your email address and creating a password.
+              Enter a payment method.
+              That's it. Stream on!
+              </p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I add channels?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>You can add channels to WWITV on top of your base subscription, which already comes with lot of channels. You can add nearly a dozen additional premium channels, including a sports package, Showtime, Starz, and others — though each channel will cost you extra each month.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How to change channels on wwitv?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>For this move, you'll need to log into your WWITV account on your computer or the WWITV mobile app. Head to Settings > Live guide. There you can drag to reorder the channels as they appear in the Live view of your channel guide.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="mobile" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Mobile</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I watch tv on my phone?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>If you're using a phone or tablet, just open the WWITV app to start streaming. Note that you do need to be connected to Wi-Fi or using cellular data to use the WWITV app</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I listen to the radio on WWITV?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Your radio is now broadcasting live on WWITV. Would you like to speak live on air? It's easy, simply open the live broadcasting software of your choice and do your show as usual</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Can I change the channel on my TV with my phone??</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Yes you can change TV channels using an android phones, All you need to have is a Smart TV that supports android apps on Play store. LG smart TV's in particular have their custom app on play store and even LG android phones have built in TV remote controls apps that work when connected with Wi-Fi.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="account" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Account</h2></li>
+			
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I delete my account?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Open the WWITV on your Device.
+              Select the left menu.
+              Select your account icon to open the accounts page.
+              Select your account from the list and click Remove Account.</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>How do I change my billing account settings?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Tap on your profile photo.
+              Tap Settings. Billing .
+              Tap Payment method or Update to review, change, or add a new form of payment.
+              View your order history. Select any charge to see more details..</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>I forgot my password. How do I reset it?</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Go to wwitv.com and click the Sign In link at the top-right corner of the page. Bam — the sign in page appears.
+              Click either the Forgot Username link or the Forgot Password link.
+              Enter your username.
+              Enter the verification code from the multicolored text. ...
+              Click the Reset My Password!</p>
+          </div>
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+
+		<ul id="payments" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>
+
+suggestions</h2></li>
+			
+			
+	
+   
+    
+<br>
+ <a class="submit"  href="suggestion.html">Any suggestions ?</a> 
+
+<br>
+
+		<ul id="delivery" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Rate Us</h2></li>
+			
+
+
+<h4>What do you think about our website ?</h4>
+<br>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+
+<a class="submit"  href="rate.html">Rate Us</a>
+
+
+				</div> <!-- cd-faq__content -->
+			</li>
+		</ul> <!-- cd-faq__group -->
+	</div> <!-- cd-faq__items -->
+
+	<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+  
+  <div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="assets/js/main.js"></script> 
+
+  <script src="nav.js"></script>
+
+  <center>
+
+  <div class="bg-imgg">
+    <left>
+        <img src="assets/img/logo.png">
+      </left>
+    
+    
+      
+        <div id="mySidenav" class="sidenav">
+          <a href="#" id="about">Watch</a>
+          <a href="#" id="blog">Add+</a>
+          <a href="Suggestion.html" id="projects">Feedback</a>
+          <a href="rate.html" id="contact">Rate</a>
+          <a href="#" id="ok">Contact</a>
+        </div>
+        
+    
+        <form action="/action_page.php" class="containere">
+          <h1 >Login</h1>
+          
+      <left>
+          <label  for="email"><b>Email:</b></label>
+          <input type="text1" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password:</b></label>
+          <input type="password1" placeholder="Enter Password" name="psw" required>
+        </left>
+          <button class="submit1" type="submit1" name="save" value="Submit1">Login</button>
+
+          
+
+</body>
+</html>

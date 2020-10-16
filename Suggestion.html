@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navbar</title>
+  <script src="https://kit.fontawesome.com/2ca75661ea.js" crossorigin="anonymous"></script>
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="cards.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("First name must be filled out");
+    return false;
+  }
+  
+   var x = document.forms["myForm"]["lname"].value;
+  if (x == "") {
+    alert("Last name must be filled out");
+    return false;
+  }
+  
+     var x = document.forms["myForm"]["email"].value;
+  if (x == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+  
+     var x = document.forms["myForm"]["suggestion"].value;
+  if (x == "") {
+    alert("Suggestion must be filled out");
+    return false;
+  }
+  
+  
+}
+</script>
+  <style>
+
+  * {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+a{
+
+  position: absolute;
+  left: 35%;
+  
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.submit{
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 40px;
+    font-family: cursive;
+    background: linear-gradient(90deg,rgb(59, 6, 90),#aa12c9);
+    box-shadow: -3px -3px 13px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+.submit:hover{
+    box-shadow: -3px -3px 3px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.submit1{
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 40px;
+    font-family: cursive;
+    background: linear-gradient(90deg,rgb(59, 6, 90),#aa12c9);
+    box-shadow: -3px -3px 13px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+.submit1:hover{
+    box-shadow: -3px -3px 3px rgb(190, 74, 236) ,inset 3px 3px 10px rgb(59, 6, 90);
+}
+
+
+    .container {  
+      max-width: 1350px;  
+      width: 100%;  
+      margin: 50px;  
+      height: auto;  
+      display: block;  
+    }  
+      
+    body {  
+      color: rgb(59, 6, 90);  
+      font-size: 20px;  
+      font-family: Verdana, Arial, Helvetica, monospace;  
+      background-color: #ffffff;  
+    }  
+      
+    h2 {  
+      text-align: center;  
+    }  
+      
+    .form_group {  
+      padding: 10px;  
+      ;    
+    display: block;  
+    }  
+      
+    label {  
+      float: left;  
+      padding-right: 50px;  
+      line-height: 10%;  
+      display: block;  
+      width: 208px;  
+    }  
+    
+img{
+  position: absolute;
+  left: 15%;
+  width: 300px;
+  top: 10%;
+   
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-imgg {
+  /* The image used */
+  background-color: #aa12c9;
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.containere {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  top:0%;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text1], input[type=password1] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text1]:focus, input[type=password1]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  
+  transition: 1s;
+  padding: 15px;
+  width: 300px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 30px;
+  background-color: rgb(59, 6, 90);
+}
+
+#blog {
+  top: 90px;
+  background-color: rgb(59, 6, 90);
+}
+
+#projects {
+  top: 150px;
+  background-color: rgb(59, 6, 90);
+}
+
+#contact {
+  top: 210px;
+  background-color: rgb(59, 6, 90);
+}
+
+#ok {
+  top: 270px;
+  background-color: rgb(59, 6, 90);
+}
+
+
+    
+        </style>
+
+</head>
+<body>
+<!--===================================================  navbar starts hear   =============================-->
+
+  <div id="navbar"> 
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btnNav"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="logo">
+     <a href="#home">   
+       <input id="logo" type="image" src="logo.png" alt="Home">
+     </a>
+    </div>
+    <ul class="navlinks">
+        <li>
+           <a class="btn" href="#watch">Watch</a>
+        </li>
+        <li class="add">
+           <a class="btn" href="#add"><i class="fas fa-plus"></i></a>
+        </li>
+        <li class="faq">
+           <a class="btn" href="faq.html">F.A.Q.</a>
+        </li>
+        <li>
+           <a class="btn" href="#about">About</a>
+        </li>
+        <li>
+           <a class="btn" href="#contact"><i class="fas fa-phone-square-alt"></i></a>
+        </li>
+        <li class="calendar">
+           <a class="btn" href="#calendar"><i class="far fa-calendar-alt"></i></a>
+        </li>
+     </ul>
+  </div>
+<!--===================================================  navbar ends hear   =============================-->
+  <br>
+  <br>
+  <br>
+  <br>
+   <center>
+   <div class="container">
+<form name="myForm" method="post" action="faq.html" onsubmit="return validateForm()" method="post">
+   
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Your Email..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Suggestion</label>
+    </div>
+    <div class="col-75">
+      <textarea id="suggestion" name="suggestion" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input class="submit" type="submit" name="save" value="Submit">
+  </div>
+  </form>
+  </div>
+
+
+<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="assets/js/main.js"></script> 
+
+  <script src="nav.js"></script>
+<center>
+  <div class="bg-imgg">
+<left>
+    <img src="assets/img/logo.png">
+  </left>
+
+
+  
+    <div id="mySidenav" class="sidenav">
+      <a href="#" id="about">Watch</a>
+      <a href="#" id="blog">Add+</a>
+      <a href="Suggestion.html" id="projects">Feedback</a>
+      <a href="rate.html" id="contact">Rate</a>
+      <a href="#" id="ok">Contact</a>
+    </div>
+    
+
+    <form action="/action_page.php" class="containere">
+      <h1>Login</h1>
+  <left>
+      <label left: 0; for="email"><b>Email</b></label>
+      <input type="text1" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password1" placeholder="Enter Password" name="psw" required>
+    </left>
+      <button class="submit1" type="submit1" name="save" value="Submit1">Login</button>
+
+      
+    </form>
+  </div>
+</body>
+</html>
